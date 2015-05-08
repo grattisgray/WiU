@@ -1,2 +1,2 @@
 # WiU
-Web Interface and Usbility
+Web Interface and Usability
