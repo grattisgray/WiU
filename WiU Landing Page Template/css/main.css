@@ -1,9 +1,8 @@
 
 /*-------------------------------------------  general -------------------------------------------------------*/
 body{
-	font-size: 74.5%;
-	font-family: helvetica new, arial, sans-serif;
-	font-style: italic;
+	font-size: 62.5%;
+	font-family: helvetica nue, arial, sans-serif;
 	color:#545257; /*changes color of the whole text*/
 	margin-top: 0;
 }
@@ -20,32 +19,22 @@ body{
 /*-------------------------------------------  header -------------------------------------------------------*/
 
 header{
-	border-bottom: 3px solid #bcb1bf; /*changes color of border under project name*/ 
-	
+	color: #0cc3f2;
+	border-bottom: 2px ridge #88c3f2; /*changes color of border under project name*/
 }
 h1{
-	font-family: Roboto, arial, sans-serif;
-	font-size: 320%;
-	color: rgba(100, 150, 220, 0.75);
 	margin-top: 0;
-	font-style: bold;
-	margin: 10 auto;
 	padding-top: 10px;
-	text-shadow: 2px 1px 4px;
-	
 }
 h2{
-	font-size: 150%;
-	color: rgba(10, 190, 220, 0.75);
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 180%;
 	margin-top: 20px;
-}
-
-.sec{
-	border-top: 1.25px dashed #bcb1bf
 }
 /*-------------------------------------------  table -------------------------------------------------------*/
 table{
-	background: #f7f7f7;  /*changes color of the background of the table*/
+	background: #f9f9f9;  /*changes color of the background of the table*/
 	border-collapse: collapse;
 	width: 100%;
 }
@@ -54,14 +43,14 @@ tr{
 	border-color: inherit;
 }
 .odd{
-	background: #efefef; /*changes color of the stripes table*/
+	background: #ececec; /*changes color of the stripes table*/
 }
 th{
 	text-align: left;
 	padding: 1em 1em .5em;
 	font-weight: bold;
-	font-size: 120%;
-	color: #545257;  /*changes color of table hd text*/
+	font-size: 130%;
+	color: #ffffff;  /*changes color of table hd text*/
 	background: #bbbcc0; /*changes color of table hd background*/
 }
 th:first-child{
